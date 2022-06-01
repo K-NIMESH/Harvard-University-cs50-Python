@@ -13,7 +13,7 @@ def getFile():
             separator = userFile[-4]
             fileName_into_list = userFile.split(separator)
             extension = fileName_into_list[-1]
-            if extension in userFile:
+            if extension in extensionsList:
                 return extension
         return extensionsList[4]
 

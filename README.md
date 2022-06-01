@@ -7,7 +7,7 @@ https://www.edx.org/course/cs50s-introduction-to-programming-with-python
 ___
 ### Problem Set 0 
 
-#### Indoor Voice
+#### 1. Indoor Voice
 
 WRITING IN ALL CAPS IS LIKE YELLING.
 

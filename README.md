@@ -9,9 +9,5 @@ ___
 
 #### 1. Indoor Voice
 
-WRITING IN ALL CAPS IS LIKE YELLING.
-
-Best to use your “indoor voice” sometimes, writing entirely in lowercase.
-
 The a file called indoor.py, implements a program in Python that prompts the user for input and then outputs that same input in lowercase. 
 ___

@@ -1,7 +1,13 @@
 def main():
-    text = input("Enter your Text. ")
-    print(convert(text))
+    text = getText()
+    convertedText = convert(text)
+    print(convertedText)
 
+    
+def getText():    
+    userInput = input("Enter your Text. ")   
+    return userInput
+    
 def convert(string):
     if ":)" and ":(" in string:
         string = string.replace(":)", "🙂")

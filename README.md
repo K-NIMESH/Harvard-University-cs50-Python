@@ -1,4 +1,4 @@
-# Harvard University CS50-Python - 2022 Solutions
+# Harvard University's CS50-Python - 2022 Solutions
 
 ___
 

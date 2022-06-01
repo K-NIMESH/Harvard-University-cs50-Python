@@ -10,4 +10,9 @@ ___
 #### 1. Indoor Voice
 
 The a file called indoor.py, implements a program in Python that prompts the user for input and then outputs that same input in lowercase. 
+
+#### 2. Playback Speed
+
+The file called playback.py, implements a program in Python that prompts the user for input and then outputs that same input, replacing each space with ... (i.e., three periods).
+
 ___

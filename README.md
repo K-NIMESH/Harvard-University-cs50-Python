@@ -42,7 +42,7 @@ The file called bank.py, implements a program that prompts the user for a greeti
 
 The file called extensions.py, implements a program that prompts the user for the name of a file and then outputs that file’s media type if the file’s name ends, case-insensitively, in any of the common media type suffix. If the file’s name ends with some other suffix or has no suffix at all, the program will output application/octet-stream instead, which is a common default.
 
-### 4. Math Interpreter
+#### 4. Math Interpreter
 
 The file called interpreter.py, implements a program that prompts the user for an arithmetic expression and then calculates and outputs the result as a floating-point value formatted to one decimal place. 
 

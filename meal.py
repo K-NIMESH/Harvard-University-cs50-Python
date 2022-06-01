@@ -1,10 +1,16 @@
 def main():
-    currentTime = input("What time is it? ").replace(":", ".")
-    results = convert(currentTime)
-    if results != "error":
-        print(results)
+    time = getTime()
+    mealTime = convertTime(time)
+    if mealTime != "error":
+        print(mealTime)
 
-def convert(time):
+        
+def getTime():
+    userInput = input("What time is it? ").replace(":", ".")   
+    return userInput
+
+        
+def convertTime(time):
     y = time[:-1]
     x = float(y)
     if x >= 7 and x <= 8:

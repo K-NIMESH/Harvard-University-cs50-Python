@@ -1,43 +1,47 @@
 def main():
-
-    ns = input("Expression: ").split(" ")
-
-    x = int(ns[0])
-
-    y = ns[1]
-
-    z = int(ns[2])
-
-    cal = calculate(x, y, z)
-
-    calFloat = '%.2f' %cal
-
-    result = remLastVal(calFloat)
-
+    expression = getExpression()
+    result = processExpression(expression)
     print(result)
 
-def calculate(num1, op, num2):
 
-    if op == "+":
+def getExpression():
+    userInput = input("Expression: ").split(" ")
+    return userInput  
+
+
+def processExpression(expression):
+    x = int(expression[0])
+    y = expression[1]
+    z = int(expression[2])
+    cal = calculate(x, y, z)
+    calFloat = '%.2f' %cal
+    result = removeLastValue(calFloat)
+    return result
+
+
+def calculate(num1, operator, num2):
+    if operator == "+":
         return num1 + num2
-    elif op == "-":
+    elif operator == "-":
         return num1 - num2
-    elif op == "*":
+    elif operator == "*":
         return num1 * num2
-    elif op == "/":
+    elif operator == "/":
         return num1 / num2
-    elif op == "%":
+    elif operator == "%":
         return num1 % num2
-    elif op == "**":
+    elif operator == "**":
         return num1 ** num2
-    elif op == "//":
+    elif operator == "//":
         return num1 // num2
     else:
         return "error"
 
-def remLastVal(x):
-    vert = str(x)
-    newVert = vert[:-1]
-    return newVert
+    
+def removeLastValue(x):
+    convertedString = str(x)
+    result = convertedString[:-1]
+    return result
+
 
 main()

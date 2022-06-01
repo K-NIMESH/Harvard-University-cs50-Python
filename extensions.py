@@ -24,7 +24,8 @@ def getApplication(fileExtension):
     for i in extensionsList:
         y += 1
         if i == fileExtension:
-            return extensionsList[y + 1]
+            application = extensionsList[y + 1]
+            return application
 
 
 main()

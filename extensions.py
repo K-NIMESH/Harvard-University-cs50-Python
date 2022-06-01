@@ -1,30 +1,29 @@
-f = ["gif", "image/gif", "jpg", "image/jpeg", "bin", "application/octet-stream", "png", "image/png", "pdf", "application/pdf", "txt", "text/plain", "zip", "application/zip"]
+extensionsList = ["gif", "image/gif", "jpg", "image/jpeg", "bin", "application/octet-stream", "png", "image/png", "pdf", "application/pdf", "txt", "text/plain", "zip", "application/zip"]
 
 
 def main():
-    fileName = getFileName()
-    print(fileApp(fileName))
+    fileExtension = getFile()
+    print(getApplication(fileExtension))
 
 
-def getFileName():
+def getFile():
     while True:
-        x = input("File name: ").lower().replace(" ", "").replace("jpeg", "jpg")
-        if len(x) > 4 and "." in x:
-            z = x[-4]
-            b = x.split(z)
-            c = b[-1]
-            if c in x:
-                return c
-        else:
-            return f[4]
+        userFile = input("File name: ").lower().replace(" ", "").replace("jpeg", "jpg")
+        if len(userFile) > 4 and "." in userFile:
+            separator = userFile[-4]
+            fileName_into_list = userFile.split(separator)
+            extension = fileName_into_list[-1]
+            if extension in userFile:
+                return extension
+        return extensionsList[4]
 
 
-def fileApp(fileName):
+def getApplication(fileExtension):
     y = -1
-    for i in f:
+    for i in extensionsList:
         y += 1
-        if i == fileName:
-            return f[y + 1]
+        if i == fileExtension:
+            return extensionsList[y + 1]
 
 
 main()

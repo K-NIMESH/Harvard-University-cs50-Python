@@ -15,4 +15,15 @@ The a file called indoor.py, implements a program in Python that prompts the use
 
 The file called playback.py, implements a program in Python that prompts the user for input and then outputs that same input, replacing each space with ... (i.e., three periods).
 
+#### 3. Making Faces
+
+The file called faces.py, implements a function called convert that accepts a str as input and returns that same input with any :) converted to 🙂 (otherwise known as a slightly smiling face) and any :( converted to 🙁 (otherwise known as a slightly frowning face). All other text should be returned unchanged.
+
+#### 4. Einstein
+
+The file called einstein.py, implements a program in Python that prompts the user for mass as an integer (in kilograms) and then outputs the equivalent number of Joules as an integer. Assume that the user will input an integer.
+
+#### 5. Tip Calculator
+
+The file called tip.py, implements a program in Python that prompts the user for a dollar amount and a percentage. Those values are converted into data types that can be evaluated together and produce a tip value. (i.e., $10.00 * 10% = $1.00)
 ___

@@ -1,3 +1,11 @@
-name = input("What's your name?").lower()
+def main():
+  name = getLowercaseName()
+  print(name)
 
-print(name)
+
+def getLowercaseName():
+  userInput = input("What's your name?").lower()
+  return userInput
+
+
+main()

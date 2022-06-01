@@ -6,7 +6,7 @@ https://www.edx.org/course/cs50s-introduction-to-programming-with-python
 
 ___
 ### Problem Set 0: Functions, Variables 
-
+___
 #### 1. Indoor Voice
 
 The a file called indoor.py, implements a program in Python that prompts the user for input and then outputs that same input in lowercase. 
@@ -30,6 +30,7 @@ ___
 
 ### Problem Set 1: Conditionals
 
+___
 #### 1. Deep Thought
 
 The file called deep.py, implements a program that prompts the user for the answer to the Great Question of Life, the Universe and Everything, outputting Yes if the user inputs 42 or (case-insensitively) forty-two or forty two. Otherwise output No.

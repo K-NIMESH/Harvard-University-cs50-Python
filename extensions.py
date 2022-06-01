@@ -3,7 +3,8 @@ extensionsList = ["gif", "image/gif", "jpg", "image/jpeg", "bin", "application/o
 
 def main():
     fileExtension = getFile()
-    print(getApplication(fileExtension))
+    application = getApplication(fileExtension)
+    print(application)
 
 
 def getFile():

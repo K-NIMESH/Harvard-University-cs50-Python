@@ -1,5 +1,3 @@
-___
-
 # Harvard University CS50-Python - 2022 Solutions
 
 ___

@@ -20,12 +20,12 @@ def getFile():
 
 
 def getApplication(fileExtension):
-    y = -1
+    y = 0
     for i in extensionsList:
-        y += 1
         if i == fileExtension:
             application = extensionsList[y + 1]
             return application
+        y += 1        
 
 
 main()

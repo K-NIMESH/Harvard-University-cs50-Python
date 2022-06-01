@@ -1,1 +1,1 @@
-# cs50-Python
+# CS50-Python - 2022 Solutions

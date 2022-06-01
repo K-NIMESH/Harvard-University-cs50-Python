@@ -1,15 +1,21 @@
 def main():
-    greeting = input("Please Enter A Greeting: ").lower().replace(",", "")
-    costOfGreeting(greeting)
+    greeting = getGreeting()
+    amount = costOfGreeting(greeting)
+    print(amount)
 
-
+    
+def getGreeting():
+    userInput = input("Please Enter A Greeting: ").lower().replace(",", "")
+    return userInput
+    
+    
 def costOfGreeting(greeting):
     if greeting.split()[0] == "hello" and "hello" in greeting:
-        print("$0")
+        return "$0"
     elif greeting.index("h") == 0:
-        print("$20")
+        return "$20"
     else:
-        print("$100")
+        return "$100"
 
         
 main()

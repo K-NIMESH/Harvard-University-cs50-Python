@@ -1,3 +1,5 @@
 # Harvard University CS50-Python - 2022 Solutions
 
-An introduction to programming using Python. Course covers how to read and write code as well as how to test and “debug” it. Designed for students with or without prior programming experience who’d like to learn Python specifically. Learn about functions, arguments, and return values; variables and types; conditionals and Boolean expressions; and loops. Learn how to handle exceptions, find and fix bugs, and write unit tests; use third-party libraries; validate and extract data with regular expressions; model real-world entities with classes, objects, methods, and properties; and read and write files. Hands-on opportunities for lots of practice. Exercises inspired by real-world programming problems. No software required except for a web browser, or you can write code on your own PC or Mac.
+Problem set answers from cs50p; an introduction to programming using Python, a popular language for general-purpose programming, data science, web programming, and more.
+
+https://www.edx.org/course/cs50s-introduction-to-programming-with-python

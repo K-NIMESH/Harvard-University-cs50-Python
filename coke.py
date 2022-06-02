@@ -11,7 +11,7 @@ def buy_coke():
         if coin in accepted_coins:
             price = price - coin
     else:
-        print("Change Owed: ", abs(price))
+        print("Change Owed:", abs(price))
 
 
 main()

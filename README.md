@@ -61,3 +61,7 @@ ___
 #### 1. camelCase
 
 The file called camel.py, implements a program that prompts the user for the name of a variable in camel case and outputs the corresponding name in snake case. The program assumes that the user’s input will indeed be in camel case.
+
+#### 2. Coke Machine
+
+The file called coke.py, implements a program that prompts the user to insert a coin, one at a time, each time informing the user of the amount due. Once the user has inputted at least 50 cents, the program will output how many cents in change the user is owed. The program will assume that the user will only input integers, and ignore any integer that isn’t an accepted denomination.

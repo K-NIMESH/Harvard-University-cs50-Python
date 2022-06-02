@@ -55,6 +55,9 @@ The file called meal.py, implements a program that prompts the user for a time a
 
 ___
 
-### Problem Set 1: Conditionals
+### Problem Set 2: Loops
 
 ___
+#### 1. camelCase
+
+The file called camel.py, implements a program that prompts the user for the name of a variable in camel case and outputs the corresponding name in snake case. The program assumes that the user’s input will indeed be in camel case.

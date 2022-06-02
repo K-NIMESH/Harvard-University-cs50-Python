@@ -4,10 +4,10 @@ def main():
 
 def buy_coke():
     price = 50
+    accepted_coins = [5, 10, 25]    
     while price > 0:
-        accepted_coins = [5, 10, 25]
         print("Amount Due:", price)
-        coin = int(input("Insert Coin:"))
+        coin = int(input("Insert Coin: "))
         if coin in accepted_coins:
             price = price - coin
     else:

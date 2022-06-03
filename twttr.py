@@ -1,6 +1,6 @@
 def main():
     tweet = get_tweet()
-    short_tweet = shorten_tweet(tweet)
+    short_tweet = shorten_tweet(tweet.lower())
     print("Output:", short_tweet)
 
 

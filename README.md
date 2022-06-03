@@ -65,3 +65,7 @@ The file called camel.py, implements a program that prompts the user for the nam
 #### 2. Coke Machine
 
 The file called coke.py, implements a program that prompts the user to insert a coin, one at a time, each time informing the user of the amount due. Once the user has inputted at least 50 cents, the program will output how many cents in change the user is owed. The program will assume that the user will only input integers, and ignore any integer that isn’t an accepted denomination.
+
+#### 1. Just setting up my twttr
+
+The file called twttr.py, implements a program that prompts the user for a str of text and then outputs that same text but with all vowels (A, E, I, O, and U) omitted, whether inputted in uppercase or lowercase.

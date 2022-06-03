@@ -12,8 +12,7 @@ def get_input():
 def convert_var(text):
     for char in text:
         if char.isupper():
-            new_char = char.lower()
-            text = text.replace(char, "_" + new_char)
+            text = text.replace(char, "_" + char.lower())
     return text
 
 

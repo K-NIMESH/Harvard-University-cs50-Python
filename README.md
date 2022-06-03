@@ -77,3 +77,7 @@ The file called twttr.py, implements a program that prompts the user for a vanit
 - “… vanity plates may contain a maximum of 6 characters (letters or numbers) and a minimum of 2 characters.”
 - “Numbers cannot be used in the middle of a plate; they must come at the end. For example, AAA222 would be an acceptable … vanity plate; AAA22A would not be acceptable. The first number used cannot be a ‘0’.”
 - “No periods, spaces, or punctuation marks are allowed.”
+
+#### 5. Nutrition Facts
+
+The file called twttr.py, implements a program that prompts users to input a fruit (case-insensitively) and then outputs the number of calories in one portion of that fruit, per the FDA’s poster for fruits. Capitalization aside, assume that users will input fruits exactly as written in the poster (e.g., strawberries, not strawberry). Ignore any input that isn’t a fruit.

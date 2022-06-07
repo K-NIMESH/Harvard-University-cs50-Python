@@ -4,7 +4,7 @@ ___
 
 My version of the problem set answers from cs50p; an introduction to programming using Python, a popular language for general-purpose programming, data science, web programming, and more.
 
-https://www.edx.org/course/cs50s-introduction-to-programming-with-python
+[Harvard University's CS50-Python](https://www.edx.org/course/cs50s-introduction-to-programming-with-python)
 
 ___
 ### Problem Set 0: Functions, Variables 

@@ -9,11 +9,11 @@ My version of the problem set answers from cs50p; an introduction to programming
 ___
 ### Problem Set 0: Functions, Variables 
 ___
-#### 1. [Indoor Voice](https://github.com/alanbjordan/cs50-Python/blob/main/indoor.py)
+#### [1. Indoor Voice](https://github.com/alanbjordan/cs50-Python/blob/main/indoor.py)
 
 The a file called indoor.py, implements a program in Python that prompts the user for input and then outputs that same input in lowercase. 
 
-#### 2. [Playback Speed](https://github.com/alanbjordan/cs50-Python/blob/main/playback.py)
+#### [2. Playback Speed](https://github.com/alanbjordan/cs50-Python/blob/main/playback.py)
 
 The file called playback.py, implements a program in Python that prompts the user for input and then outputs that same input, replacing each space with ... (i.e., three periods).
 

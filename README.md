@@ -72,7 +72,7 @@ The file called twttr.py, implements a program that prompts the user for a str o
 
 #### 4. Vanity Plates
 
-The file called twttr.py, implements a program that prompts the user for a vanity plate and then output Valid if meets all of the requirements or Invalid if it does not. Assume that any letters in the user’s input will be uppercase. Structure your program per the below, wherein is_valid returns True if s meets all requirements and False if it does not. Assume that s will be a str. 
+The file called plates.py, implements a program that prompts the user for a vanity plate and then output Valid if meets all of the requirements or Invalid if it does not. Assume that any letters in the user’s input will be uppercase. Structure your program per the below, wherein is_valid returns True if s meets all requirements and False if it does not. Assume that s will be a str. 
 - “All vanity plates must start with at least two letters.”
 - “… vanity plates may contain a maximum of 6 characters (letters or numbers) and a minimum of 2 characters.”
 - “Numbers cannot be used in the middle of a plate; they must come at the end. For example, AAA222 would be an acceptable … vanity plate; AAA22A would not be acceptable. The first number used cannot be a ‘0’.”
@@ -80,7 +80,7 @@ The file called twttr.py, implements a program that prompts the user for a vanit
 
 #### 5. Nutrition Facts
 
-The file called twttr.py, implements a program that prompts users to input a fruit (case-insensitively) and then outputs the number of calories in one portion of that fruit, per the FDA’s poster for fruits. Capitalization aside, assume that users will input fruits exactly as written in the poster (e.g., strawberries, not strawberry). Ignore any input that isn’t a fruit.
+The file called nutrition.py, implements a program that prompts users to input a fruit (case-insensitively) and then outputs the number of calories in one portion of that fruit, per the FDA’s poster for fruits. Capitalization aside, assume that users will input fruits exactly as written in the poster (e.g., strawberries, not strawberry). Ignore any input that isn’t a fruit.
 
 ___
 
@@ -90,6 +90,10 @@ ___
 
 #### 1. Fuel Gauge
 
-The file called twttr.py, implements a program that prompts the user for a fraction, formatted as X/Y, wherein each of X and Y is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank. If, though, 1% or less remains, output E instead to indicate that the tank is essentially empty. And if 99% or more remains, output F instead to indicate that the tank is essentially full.
+The file called fuel.py, implements a program that prompts the user for a fraction, formatted as X/Y, wherein each of X and Y is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank. If, though, 1% or less remains, output E instead to indicate that the tank is essentially empty. And if 99% or more remains, output F instead to indicate that the tank is essentially full.
 
 If, though, X or Y is not an integer, X is greater than Y, or Y is 0, instead prompt the user again. (It is not necessary for Y to be 4.) Be sure to catch any exceptions like ValueError or ZeroDivisionError.
+
+#### 2. Felipe's Taqueria
+
+The file called taqueria.py, implements a program that enables a user to place an order, prompting them for items, one per line, until the user inputs control-d (which is a common way of ending one’s input to a program). After each inputted item, the program will display the total cost of all items inputted thus far, prefixed with a dollar sign ($) and formatted to two decimal places. Program treats the user’s input case insensitively and ignores any input that isn’t an item. It assumes that every item on the menu will be titlecased.

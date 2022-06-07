@@ -55,22 +55,22 @@ The file called meal.py, implements a program that prompts the user for a time a
 
 ___
 
-### Problem Set 2: Loops
+### [Problem Set 2: Loops](https://github.com/alanbjordan/cs50-Python/tree/main/problemSet2)
 
 ___
-#### 1. camelCase
+#### [1. camelCase](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet2/camel.py)
 
 The file called camel.py, implements a program that prompts the user for the name of a variable in camel case and outputs the corresponding name in snake case. The program assumes that the user’s input will indeed be in camel case.
 
-#### 2. Coke Machine
+#### [2. Coke Machine](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet2/coke.py)
 
 The file called coke.py, implements a program that prompts the user to insert a coin, one at a time, each time informing the user of the amount due. Once the user has inputted at least 50 cents, the program will output how many cents in change the user is owed. The program will assume that the user will only input integers, and ignore any integer that isn’t an accepted denomination.
 
-#### 3. Just setting up my twttr
+#### [3. Just setting up my twttr](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet2/twttr.py)
 
 The file called twttr.py, implements a program that prompts the user for a str of text and then outputs that same text but with all vowels (A, E, I, O, and U) omitted, whether inputted in uppercase or lowercase.
 
-#### 4. Vanity Plates
+#### [4. Vanity Plates](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet2/plates.py)
 
 The file called plates.py, implements a program that prompts the user for a vanity plate and then output Valid if meets all of the requirements or Invalid if it does not. Assume that any letters in the user’s input will be uppercase. Structure your program per the below, wherein is_valid returns True if s meets all requirements and False if it does not. Assume that s will be a str. 
 - “All vanity plates must start with at least two letters.”
@@ -78,7 +78,7 @@ The file called plates.py, implements a program that prompts the user for a vani
 - “Numbers cannot be used in the middle of a plate; they must come at the end. For example, AAA222 would be an acceptable … vanity plate; AAA22A would not be acceptable. The first number used cannot be a ‘0’.”
 - “No periods, spaces, or punctuation marks are allowed.”
 
-#### 5. Nutrition Facts
+#### [5. Nutrition Facts](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet2/nutrition.py)
 
 The file called nutrition.py, implements a program that prompts users to input a fruit (case-insensitively) and then outputs the number of calories in one portion of that fruit, per the FDA’s poster for fruits. Capitalization aside, assume that users will input fruits exactly as written in the poster (e.g., strawberries, not strawberry). Ignore any input that isn’t a fruit.
 

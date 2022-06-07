@@ -25,7 +25,7 @@ def get_order():
         except (ValueError,NameError,KeyError):
             pass
         except EOFError:
-            return 0
+            return None
 
 
 main()

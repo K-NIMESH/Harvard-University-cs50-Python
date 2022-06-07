@@ -7,25 +7,25 @@ My version of the problem set answers from cs50p; an introduction to programming
 [Harvard University's CS50-Python](https://www.edx.org/course/cs50s-introduction-to-programming-with-python)
 
 ___
-### Problem Set 0: Functions, Variables 
+### [Problem Set 0: Functions, Variables](https://github.com/alanbjordan/cs50-Python/tree/main/problemSet0)
 ___
-#### [1. Indoor Voice](https://github.com/alanbjordan/cs50-Python/blob/main/indoor.py)
+#### [1. Indoor Voice](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet0/indoor.py)
 
 The a file called indoor.py, implements a program in Python that prompts the user for input and then outputs that same input in lowercase. 
 
-#### [2. Playback Speed](https://github.com/alanbjordan/cs50-Python/blob/main/playback.py)
+#### [2. Playback Speed](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet0/playback.py)
 
 The file called playback.py, implements a program in Python that prompts the user for input and then outputs that same input, replacing each space with ... (i.e., three periods).
 
-#### 3. Making Faces
+#### [3. Making Faces](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet0/faces.py)
 
 The file called faces.py, implements a function called convert that accepts a str as input and returns that same input with any :) converted to 🙂 (otherwise known as a slightly smiling face) and any :( converted to 🙁 (otherwise known as a slightly frowning face). All other text should be returned unchanged.
 
-#### 4. Einstein
+#### [4. Einstein](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet0/einstein.py)
 
 The file called einstein.py, implements a program in Python that prompts the user for mass as an integer (in kilograms) and then outputs the equivalent number of Joules as an integer. Assume that the user will input an integer.
 
-#### 5. Tip Calculator
+#### [5. Tip Calculator](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet0/tip.py)
 
 The file called tip.py, implements a program in Python that prompts the user for a dollar amount and a percentage. Those values are converted into data types that can be evaluated together and produce a tip value. (i.e., $10.00 * 10% = $1.00)
 ___

@@ -84,16 +84,16 @@ The file called nutrition.py, implements a program that prompts users to input a
 
 ___
 
-### Problem Set 3: Exceptions
+### [Problem Set 3: Exceptions](https://github.com/alanbjordan/cs50-Python/tree/main/problemSet3)
 
 ___
 
-#### 1. Fuel Gauge
+#### [1. Fuel Gauge](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet3/fuel.py)
 
 The file called fuel.py, implements a program that prompts the user for a fraction, formatted as X/Y, wherein each of X and Y is an integer, and then outputs, as a percentage rounded to the nearest integer, how much fuel is in the tank. If, though, 1% or less remains, output E instead to indicate that the tank is essentially empty. And if 99% or more remains, output F instead to indicate that the tank is essentially full.
 
 If, though, X or Y is not an integer, X is greater than Y, or Y is 0, instead prompt the user again. (It is not necessary for Y to be 4.) Be sure to catch any exceptions like ValueError or ZeroDivisionError.
 
-#### 2. Felipe's Taqueria
+#### [2. Felipe's Taqueria](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet3/taqueria.py)
 
 The file called taqueria.py, implements a program that enables a user to place an order, prompting them for items, one per line, until the user inputs control-d (which is a common way of ending one’s input to a program). After each inputted item, the program will display the total cost of all items inputted thus far, prefixed with a dollar sign ($) and formatted to two decimal places. Program treats the user’s input case insensitively and ignores any input that isn’t an item. It assumes that every item on the menu will be titlecased.

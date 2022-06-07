@@ -7,7 +7,7 @@ My version of the problem set answers from cs50p; an introduction to programming
 [Harvard University's CS50-Python](https://www.edx.org/course/cs50s-introduction-to-programming-with-python)
 
 ___
-<p style="text-align: center;">### [Problem Set 0: Functions, Variables](https://github.com/alanbjordan/cs50-Python/tree/main/problemSet0)<p>
+<p> style="text-align: center;">### [Problem Set 0: Functions, Variables](https://github.com/alanbjordan/cs50-Python/tree/main/problemSet0)<p>
 ___
 #### [1. Indoor Voice](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet0/indoor.py)
 

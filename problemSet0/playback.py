@@ -1,3 +1,3 @@
 userInput = input("Tell me something. ")
 
-print(userInput.replace(" ", "..."))
+print(userInput.replace(" ", "...")) 

@@ -13,7 +13,7 @@ ___
 
 The a file called indoor.py, implements a program in Python that prompts the user for input and then outputs that same input in lowercase. 
 
-#### 2. Playback Speed
+#### 2. [Playback Speed](https://github.com/alanbjordan/cs50-Python/blob/main/playback.py)
 
 The file called playback.py, implements a program in Python that prompts the user for input and then outputs that same input, replacing each space with ... (i.e., three periods).
 

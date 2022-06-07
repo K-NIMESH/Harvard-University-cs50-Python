@@ -30,26 +30,26 @@ The file called einstein.py, implements a program in Python that prompts the use
 The file called tip.py, implements a program in Python that prompts the user for a dollar amount and a percentage. Those values are converted into data types that can be evaluated together and produce a tip value. (i.e., $10.00 * 10% = $1.00)
 ___
 
-### Problem Set 1: Conditionals
+### [Problem Set 1: Conditionals](https://github.com/alanbjordan/cs50-Python/tree/main/problemSet1)
 
 ___
-#### 1. Deep Thought
+#### [1. Deep Thought](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet1/deep.py)
 
 The file called deep.py, implements a program that prompts the user for the answer to the Great Question of Life, the Universe and Everything, outputting Yes if the user inputs 42 or (case-insensitively) forty-two or forty two. Otherwise output No.
 
-#### 2. Home Federal Savings Bank
+#### [2. Home Federal Savings Bank](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet1/bank.py)
 
 The file called bank.py, implements a program that prompts the user for a greeting. If the greeting starts with “hello”, output $0. If the greeting starts with an “h” (but not “hello”), output $20. Otherwise, output $100. The program will ignore any leading whitespace in the user’s greeting, and treat the user’s greeting case-insensitively.
 
-#### 3. File Extensions
+#### [3. File Extensions](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet1/extensions.py)
 
 The file called extensions.py, implements a program that prompts the user for the name of a file and then outputs that file’s media type if the file’s name ends, case-insensitively, in any of the common media type suffix. If the file’s name ends with some other suffix or has no suffix at all, the program will output application/octet-stream instead, which is a common default.
 
-#### 4. Math Interpreter
+#### [4. Math Interpreter](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet1/interpreter.py)
 
 The file called interpreter.py, implements a program that prompts the user for an arithmetic expression and then calculates and outputs the result as a floating-point value formatted to one decimal place. 
 
-#### 4. Meal Time
+#### [4. Meal Time](https://github.com/alanbjordan/cs50-Python/blob/main/problemSet1/meal.py)
 
 The file called meal.py, implements a program that prompts the user for a time and outputs whether it’s breakfast time, lunch time, or dinner time.
 

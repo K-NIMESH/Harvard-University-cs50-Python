@@ -1,7 +1,8 @@
-g_list = []
+
 
 
 def main():
+    g_list = []    
     shop()
 
 

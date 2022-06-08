@@ -1,6 +1,3 @@
-
-
-
 def main():
     g_list = []    
     shop()

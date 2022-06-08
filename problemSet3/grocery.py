@@ -8,7 +8,7 @@ def main():
 def shop():
     while True:
         try:
-            user_input = input("").upper().strip()
+            user_input = input().upper().strip()
             g_list.append(user_input)
         except (EOFError, KeyError):
             sorted_list = sorted(set(g_list))
